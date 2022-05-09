@@ -14,8 +14,8 @@ import com.amazonaws.services.simpleemail.model.SendEmailRequest;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
 public class SESService {
-  static final String FROM = "beatriznunez601@gmail.com";
-  static final String TO = "bianunez60@gmail.com";
+  static final String FROM = "ana@gmail.com";
+  static final String TO = "ana@gmail.com";
   static final String SUBJECT = "Email with Kafka and SES"; 
   static final String BODY = "Hello, i am sending this with kafka and SES! :D";
 
